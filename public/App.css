@@ -1,0 +1,195 @@
+/* General Styling for the App */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* App Header */
+.header {
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+  color: #4CAF50;
+  margin-bottom: 20px;
+}
+
+/* ActionList Component Styling */
+.action-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.action-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+}
+
+.action-item span {
+  font-size: 1em;
+  font-weight: 500;
+}
+
+.add-button {
+  padding: 8px 12px;
+  font-size: 0.9em;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-button:hover {
+  background-color: #45a049;
+}
+
+/* ImpactSummary Component Styling */
+.impact-summary {
+  margin-top: 30px;
+  padding: 15px;
+  background-color: #e8f5e9;
+  border-radius: 5px;
+}
+
+.impact-summary h3 {
+  font-size: 1.2em;
+  color: #388E3C;
+}
+
+.tracked-action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.clear-button {
+  padding: 8px 12px;
+  background-color: #ff5252;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.clear-button:hover {
+  background-color: #e53935;
+}
+
+/* Carbon Reduction Badge */
+.carbon-badge {
+  padding: 10px;
+  font-size: 1.2em;
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.carbon-badge.red {
+  background-color: #ff5252;
+}
+
+.carbon-badge.orange {
+  background-color: #ffa726;
+}
+
+.carbon-badge.green {
+  background-color: #66bb6a;
+}
+
+/* Badge System Component */
+.badge-system {
+  margin-top: 20px;
+  padding: 12px;
+  background-color: #f0f4c3;
+  border-radius: 5px;
+}
+
+.badge-system p {
+  font-size: 1em;
+  color: #6d4c41;
+}
+
+/* Community Leaderboard Styling */
+.leaderboard {
+  margin-top: 30px;
+  padding: 12px;
+  background-color: #e1f5fe;
+  border-radius: 5px;
+}
+
+.leaderboard h4 {
+  font-size: 1.1em;
+  color: #0277bd;
+}
+
+.leaderboard-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.leaderboard-item:last-child {
+  border-bottom: none;
+}
+
+/* Tips Component Styling */
+.tips {
+  margin-top: 20px;
+  padding: 12px;
+  background-color: #fffde7;
+  border-radius: 5px;
+}
+
+.tips h4 {
+  font-size: 1.1em;
+  color: #f57c00;
+}
+
+.tips ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.tips li {
+  margin-bottom: 8px;
+}
+
+/* Theme Toggle Styling */
+.theme-toggle {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+.theme-toggle button {
+  padding: 8px 12px;
+  background-color: #78909c;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.theme-toggle button:hover {
+  background-color: #546e7a;
+}
